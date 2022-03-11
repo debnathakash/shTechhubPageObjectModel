@@ -18,6 +18,7 @@ public class Facebook_Test extends BaseClass_Test{
 	
 	@Test
 	public void attemptFBLogin() {
+		System.out.println("Calling of fb page started");
 		fbTest = new FaceBook_page(driver);
 		
 		fbTest.facebook_login("tesuser@gmail.com", "Test@123");
