@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T15:54:18 IST" name="Suite" finished-at="2022-03-10T15:54:24 IST" duration-ms="6545">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T15:54:18 IST" name="Test" finished-at="2022-03-10T15:54:24 IST" duration-ms="6545">
+      <class name="test_methods.Facebook_Test">
+        <test-method signature="attemptFBLogin()[pri:0, instance:test_methods.Facebook_Test@bd4dc25]" started-at="2022-03-10T15:54:24 IST" name="attemptFBLogin" finished-at="2022-03-10T15:54:24 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptFBLogin -->
+      </class> <!-- test_methods.Facebook_Test -->
+      <class name="test_methods.SearchOperation_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_methods.SearchOperation_Test@fa49800]" started-at="2022-03-10T15:54:11 IST" name="setup" finished-at="2022-03-10T15:54:18 IST" duration-ms="6927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchOperation()[pri:0, instance:test_methods.SearchOperation_Test@fa49800]" started-at="2022-03-10T15:54:18 IST" name="searchOperation" finished-at="2022-03-10T15:54:24 IST" duration-ms="6264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOperation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_methods.SearchOperation_Test@fa49800]" started-at="2022-03-10T15:54:24 IST" name="tearDown" finished-at="2022-03-10T15:54:25 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_methods.SearchOperation_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
